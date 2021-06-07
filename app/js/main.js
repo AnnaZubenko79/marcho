@@ -9,7 +9,6 @@ $(".star").rateYo({
     normallFill: "#ccccce",
     ratedFill: "#ffc35b",
     readOnly: true
-
   });
 
 });
