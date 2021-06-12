@@ -33,3 +33,19 @@ $grey-300: #727272;
     @return m#{i}n(#{$numbers});
   }
   
+  %btn {
+      padding: 12px 26px;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: $accent;
+      @extend %roboto-400;
+      box-shadow: 0 7px 20px 0px rgba(225,17,48,0.3);
+  }
+
+  %checkbox-hidden {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    position: absolute;
+  }
