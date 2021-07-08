@@ -105,7 +105,7 @@ a {
     &.product-item--list {
         min-width: 100%;
         display: flex;
-        text-align-last: left;
+        text-align: left;
 
         &:hover {
             .product-item__link-box {
@@ -188,6 +188,7 @@ a {
             margin-left: 23px;
         }
     }
+
 
     &__img-box {
         position: relative;
