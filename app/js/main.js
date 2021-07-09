@@ -4,7 +4,7 @@ $('.top-slider__inner').slick({
    arrows: false,
    fade: true,
    autoplay: true,
-   autoplaySpeed: 2000,
+   autoplaySpeed: 2000
 });
 
 $('.blog-page__slider').slick({
@@ -48,5 +48,5 @@ $(".star").rateYo({
   $('.button-grid').on('click', function(){
     $('.product-item').removeClass('product-item--list')
   });
-// const svgSprite = require("gulp-svg-sprite");
+const svgSprite = require("gulp-svg-sprite");
 });
