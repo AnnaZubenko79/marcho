@@ -1,5 +1,8 @@
 .header {
     padding: 40px 0;
+    &--404 {
+        background-color: $bg;
+    }
 
     &__inner {
         display: flex;
